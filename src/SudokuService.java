@@ -12,7 +12,7 @@ class SudokuService {
     public SudokuService() {
         SIZE = 9;
         EMPTY = 0;
-        BLANKS = 1;
+        BLANKS = 51;
         board_filled = new int[9][9];
         board_template = new int[9][9];
         board_game = new int[9][9];
